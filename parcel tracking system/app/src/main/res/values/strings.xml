@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">parceLight</string>
+
+    <string name="track_num">Tracking number</string>
+    <string name="cust_name">Name</string>
+    <string name="cust_address">Address</string>
+    <string name="cust_number">Number</string>
+    <string name="btn_admin">Submit</string>
+
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="record">Record</string>
+    <string name="dm">Delivery Man</string>
+    <string name="logout">Logout</string>
+    <string-array name="String">
+        <item>Pending</item>
+        <item>Delivered</item>
+        <item>Return</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="480dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            app:cardBackgroundColor="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/font_main"
+                android:paddingTop="30sp"
+                android:text="Parcel"
+                android:textColor="@android:color/white"
+                android:textSize="55sp"
+                android:textStyle="" />
+
+            <TextView
+                android:id="@+id/tracking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/font_graphica"
+                android:hint="Tracking number"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/dmname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/font_graphica"
+                android:hint="Delivery Man"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/custname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/font_graphica"
+                android:hint="Customer name"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/font_graphica"
+                android:hint="Address"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/postcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/font_graphica"
+                android:hint="Postcode"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/font_graphica"
+                android:hint="Phone"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp" />
+
+
+            <!-- Back -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="380dp"
+                android:layout_marginBottom="24dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="5dp"
+                android:text="Back"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

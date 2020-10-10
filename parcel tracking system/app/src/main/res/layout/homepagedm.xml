@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".HomepageDM">>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_signup"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            app:cardBackgroundColor="@android:color/holo_orange_light">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="88dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/signup" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/font_graphica"
+                android:text="SignUp"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textColorLink="@android:color/white"
+                android:textSize="25sp" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_sigin"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="225dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            app:cardBackgroundColor="@android:color/holo_orange_light">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="88dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/signin" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/font_graphica"
+                android:text="SignIn"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textColorLink="@android:color/white"
+                android:textSize="25sp" />
+
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:alpha=".55"/>
+
+</android.support.constraint.ConstraintLayout>
