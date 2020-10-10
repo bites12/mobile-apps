@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "256466003028",
+    "firebase_url": "https://parcelright-31f6d.firebaseio.com",
+    "project_id": "parcelright-31f6d",
+    "storage_bucket": "parcelright-31f6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256466003028:android:6587e8c19de6d94f",
+        "android_client_info": {
+          "package_name": "com.example.parcelight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256466003028-vk622bo7bacsk94sm2vq3edalhhjd0qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parcelight",
+            "certificate_hash": "51c3b9aff5da6982f394e282132528e0e489cc96"
+          }
+        },
+        {
+          "client_id": "256466003028-dqeqikspcj5v7pjnmild0hrn87apiple.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy7tC9L8eg1WtbBJXYIUN8KTt7TfHZaWc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256466003028-dqeqikspcj5v7pjnmild0hrn87apiple.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
